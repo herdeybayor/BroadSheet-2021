@@ -57,3 +57,30 @@ $(".ss2a").click(function () {
         $(".za li").css("display", "block");
     }
 })
+
+// On SS2b Click
+$(".ss2b").click(function () {
+    if($(".zb li").css("display") == "block"){
+        $(".zb li").css("display", "none");
+    }else{
+        $(".zb li").css("display", "block");
+    }
+})
+
+// On SS2c Click
+$(".ss2c").click(function () {
+    if($(".zc li").css("display") == "block"){
+        $(".zc li").css("display", "none");
+    }else{
+        $(".zc li").css("display", "block");
+    }
+})
+
+// On SS2d Click
+$(".ss2d").click(function () {
+    if($(".zd li").css("display") == "block"){
+        $(".zd li").css("display", "none");
+    }else{
+        $(".zd li").css("display", "block");
+    }
+})
