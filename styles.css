@@ -36,6 +36,7 @@ h4 {
 }
 
 .ss1:hover, .ss2:hover {
+    font-size: larger;
     color: red;
     cursor: pointer;
 }
@@ -46,6 +47,7 @@ h4 {
 }
 
 .ss1a:hover, .ss1b:hover, .ss1c:hover, .ss2a:hover, .ss2b:hover, .ss2c:hover, .ss2d:hover {
+    font-size: larger;
     color: red;
     cursor: pointer;
 }
