@@ -1,6 +1,6 @@
 // On SS1 Click
 $(".ss1").click(function () {
-    $(".i1").removeClass("fa-plus");
+    $(".i1").toggleClass("fa-plus");
     $(".i1").addClass("fa-minus");
     $(".ss1a").toggleClass("block");
     $(".ss1b").toggleClass("block");
@@ -12,6 +12,8 @@ $(".ss1").click(function () {
 
 // On SS2 Click
 $(".ss2").click(function () {
+    $(".i2").toggleClass("fa-plus");
+    $(".i2").addClass("fa-minus");
     $(".ss2a").toggleClass("block");
     $(".ss2b").toggleClass("block");
     $(".ss2c").toggleClass("block");
@@ -24,6 +26,8 @@ $(".ss2").click(function () {
 
 // On SS1a Click
 $(".ss1a").click(function () {
+    $(".i1a").toggleClass("fa-plus");
+    $(".i1a").addClass("fa-minus");
     if($(".ya li").css("display") == "block"){
         $(".ya li").css("display", "none");
     }else{
@@ -33,6 +37,8 @@ $(".ss1a").click(function () {
 
 // On SS1b Click
 $(".ss1b").click(function () {
+    $(".i1b").toggleClass("fa-plus");
+    $(".i1b").addClass("fa-minus");
     if($(".yb li").css("display") == "block"){
         $(".yb li").css("display", "none");
     }else{
@@ -42,6 +48,8 @@ $(".ss1b").click(function () {
 
 // On SS1c Click
 $(".ss1c").click(function () {
+    $(".i1c").toggleClass("fa-plus");
+    $(".i1c").addClass("fa-minus");
     if($(".yc li").css("display") == "block"){
         $(".yc li").css("display", "none");
     }else{
@@ -51,6 +59,8 @@ $(".ss1c").click(function () {
 
 // On SS2a Click
 $(".ss2a").click(function () {
+    $(".i2a").toggleClass("fa-plus");
+    $(".i2a").addClass("fa-minus");
     if($(".za li").css("display") == "block"){
         $(".za li").css("display", "none");
     }else{
@@ -60,6 +70,8 @@ $(".ss2a").click(function () {
 
 // On SS2b Click
 $(".ss2b").click(function () {
+    $(".i2b").toggleClass("fa-plus");
+    $(".i2b").addClass("fa-minus");
     if($(".zb li").css("display") == "block"){
         $(".zb li").css("display", "none");
     }else{
@@ -69,6 +81,8 @@ $(".ss2b").click(function () {
 
 // On SS2c Click
 $(".ss2c").click(function () {
+    $(".i2c").toggleClass("fa-plus");
+    $(".i2c").addClass("fa-minus");
     if($(".zc li").css("display") == "block"){
         $(".zc li").css("display", "none");
     }else{
@@ -78,6 +92,8 @@ $(".ss2c").click(function () {
 
 // On SS2d Click
 $(".ss2d").click(function () {
+    $(".i2d").toggleClass("fa-plus");
+    $(".i2d").addClass("fa-minus");
     if($(".zd li").css("display") == "block"){
         $(".zd li").css("display", "none");
     }else{

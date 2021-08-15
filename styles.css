@@ -17,15 +17,39 @@ h4 {
 
 .container {
     text-align: left;
-    font-size: 25px;
+}
+
+.apps {
+    text-align: center;
+}
+
+.col-sm-12 {
+    margin: 20px auto;
 }
 
 .container ul  {
     list-style:none;
 }
 
+.ss1, .ss2 {
+    text-decoration: underline;
+}
+
+.ss1:hover, .ss2:hover {
+    color: red;
+}
+
 .ss1a, .ss1b, .ss1c, .ss2a, .ss2b, .ss2c, .ss2d {
     display: none;
+    text-decoration: underline;
+}
+
+.ss1a:hover, .ss1b:hover, .ss1c:hover, .ss2a:hover, .ss2b:hover, .ss2c:hover, .ss2d:hover {
+    color: red;
+}
+
+a:hover {
+    color: red;
 }
 
 .block {
@@ -34,6 +58,12 @@ h4 {
 
 i {
     margin-right: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
 }
 
 @media (max-width: 470px) {
