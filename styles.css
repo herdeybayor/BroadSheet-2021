@@ -37,6 +37,7 @@ h4 {
 
 .ss1:hover, .ss2:hover {
     color: red;
+    cursor: pointer;
 }
 
 .ss1a, .ss1b, .ss1c, .ss2a, .ss2b, .ss2c, .ss2d {
@@ -46,6 +47,7 @@ h4 {
 
 .ss1a:hover, .ss1b:hover, .ss1c:hover, .ss2a:hover, .ss2b:hover, .ss2c:hover, .ss2d:hover {
     color: red;
+    cursor: pointer;
 }
 
 a:hover {
@@ -58,6 +60,10 @@ a:hover {
 
 i {
     margin-right: 5px;
+}
+
+i:hover {
+    cursor: pointer;
 }
 
 h3 {
