@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+h4 {
+    color: black;
+}
+
+.container {
+    text-align: left;
+    font-size: 25px;
+}
+
+.container ul  {
+    list-style:none;
+}
+
+.ss1a, .ss1b, .ss1c, .ss2a, .ss2b, .ss2c, .ss2d {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+i {
+    margin-right: 5px;
+}
+
+@media (max-width: 470px) {
+    .col1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .col2 {
+        text-align: center;
+    }
+  }
